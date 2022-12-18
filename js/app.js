@@ -19,50 +19,50 @@ c.fillRect(0, 0, canvas.width, canvas.height);
 
 const bg = new Sprite({
   position: {x: 0, y: 0},
-  imgSrc: "/assets/background.png",
+  imgSrc: "../assets/background.png",
 })
 
 const shop = new Sprite({
   position: {x: 600, y: 128},
-  imgSrc: "/assets/shop.png",
+  imgSrc: "../assets/shop.png",
   scale: 2.75,
   frameMax: 6
 })
 
 const player = new Fighter({
   position: { x: 0, y: 0 },
-  imgSrc: "/assets/samuraiMack/Idle.png",
+  imgSrc: "../assets/samuraiMack/Idle.png",
   velocity: { x: 0, y: 0 },
   offset: {x: 215, y: 157},
   scale: 2.5,
   frameMax: 8,
   sprites: {
     idle: {
-      imgSrc: "/assets/samuraiMack/Idle.png",
+      imgSrc: "../assets/samuraiMack/Idle.png",
       frameMax: 8
     },
     run: {
-      imgSrc: "/assets/samuraiMack/Run.png",
+      imgSrc: "../assets/samuraiMack/Run.png",
       frameMax: 8
     },
     jump: {
-      imgSrc: "/assets/samuraiMack/Jump.png",
+      imgSrc: "../assets/samuraiMack/Jump.png",
       frameMax: 2
     },
     fall: {
-      imgSrc: "/assets/samuraiMack/Fall.png",
+      imgSrc: "../assets/samuraiMack/Fall.png",
       frameMax: 2
     },
     attack1: {
-      imgSrc: "/assets/samuraiMack/Attack1.png",
+      imgSrc: "../assets/samuraiMack/Attack1.png",
       frameMax: 6
     },
     takeHit: {
-      imgSrc: "/assets/samuraiMack/Take hit - white silhouette.png",
+      imgSrc: "../assets/samuraiMack/Take hit - white silhouette.png",
       frameMax: 4
     },
     death: {
-      imgSrc: "/assets/samuraiMack/Death.png",
+      imgSrc: "../assets/samuraiMack/Death.png",
       frameMax: 6
     }
   },
@@ -78,38 +78,38 @@ const player = new Fighter({
 
 const enemy = new Fighter({
   position: { x: 500, y: 100 },
-  imgSrc: "/assets/kenji/Idle.png",
+  imgSrc: "../assets/kenji/Idle.png",
   velocity: { x: 0, y: 0 },
   offset: {x: 215, y: 167},
   scale: 2.5,
   frameMax: 4,
   sprites: {
     idle: {
-      imgSrc: "/assets/kenji/Idle.png",
+      imgSrc: "../assets/kenji/Idle.png",
       frameMax: 4
     },
     run: {
-      imgSrc: "/assets/kenji/Run.png",
+      imgSrc: "../assets/kenji/Run.png",
       frameMax: 8
     },
     jump: {
-      imgSrc: "/assets/kenji/Jump.png",
+      imgSrc: "../assets/kenji/Jump.png",
       frameMax: 2
     },
     fall: {
-      imgSrc: "/assets/kenji/Fall.png",
+      imgSrc: "../assets/kenji/Fall.png",
       frameMax: 2
     },
     attack1: {
-      imgSrc: "/assets/kenji/Attack1.png",
+      imgSrc: "../assets/kenji/Attack1.png",
       frameMax: 4
     },
     takeHit: {
-      imgSrc: "/assets/kenji/Take hit.png",
+      imgSrc: "../assets/kenji/Take hit.png",
       frameMax: 3
     },
     death: {
-      imgSrc: "/assets/kenji/Death.png",
+      imgSrc: "../assets/kenji/Death.png",
       frameMax: 7
     }
   },
